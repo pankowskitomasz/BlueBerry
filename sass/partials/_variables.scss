@@ -1,0 +1,21 @@
+$color-gray: #999;
+$color-white: #fff;
+$font-logo: 'Shojumaru', cursive;
+$font-menu: 'Comfortaa', cursive;
+$height-full: 100vh;
+$height-half: 50vh;
+$height-third: 33vh;
+$index-s1-bg: "../img/index-bg-s1.jpg";
+$section-full-height:
+    "confirm-s1",
+    "error-s1",
+    "index-s1",
+    "privacy-s1";
+$section-third-height:
+    "confirm-s2",
+    "error-s2",
+    "index-s2",
+    "index-s3",
+    "privacy-s2";
+$text-shadow-black: 0 2px 5px black;
+$text-shadow-gray: 0 1px 3px $color-gray;

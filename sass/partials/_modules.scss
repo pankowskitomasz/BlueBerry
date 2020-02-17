@@ -1,0 +1,56 @@
+.border{
+    &-gray{
+        border-color: $color-gray;
+    }
+}
+.confirm{
+    &-s1{
+        @include set-bg-cover($index-s1-bg);
+    }
+}
+.error{
+    &-s1{
+        @include set-bg-cover($index-s1-bg);
+    }
+}
+.font{
+    &-logo{
+        font-family: $font-logo;
+    }
+    &-menu{
+        font-family: $font-menu;
+    }
+}
+.index{
+    &-s1{
+        @include set-bg-cover($index-s1-bg);
+    }
+}
+.navbar-dark{
+    .navbar-nav{
+        .nav-link {
+            &:hover{
+                text-decoration: underline;
+            }
+            color: $color-white;
+        }
+    }
+    .navbar-text{
+        color: $color-white;
+    }
+}
+.privacy{
+    &-s1{
+        @include set-bg-cover($index-s1-bg);
+    }
+}
+.text{
+    &-shadow{
+        &-black{
+            text-shadow: $text-shadow-black;
+        }
+        &-gray{
+            text-shadow: $text-shadow-gray;
+        }
+    }
+}

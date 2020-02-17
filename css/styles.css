@@ -1,0 +1,190 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDr4fIA9c.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrcfIA9c.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrAfIA9c.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrwfIA9c.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDr0fIA9c.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfIA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Shojumaru';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Shojumaru"), local("Shojumaru-Regular"), url(../fonts/rax_HiWfutkLLnaKCtl8DRhfo0s.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Shojumaru';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Shojumaru"), local("Shojumaru-Regular"), url(../fonts/rax_HiWfutkLLnaKCtl8Axhf.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* line 1, ../sass/partials/_layout.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../sass/partials/_layout.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.confirm-s1 {
+  min-height: 100vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.error-s1 {
+  min-height: 100vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.index-s1 {
+  min-height: 100vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.privacy-s1 {
+  min-height: 100vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.confirm-s2 {
+  min-height: 33vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.error-s2 {
+  min-height: 33vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.index-s2 {
+  min-height: 33vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.index-s3 {
+  min-height: 33vh;
+}
+
+/* line 8, ../sass/partials/_mixins.scss */
+.privacy-s2 {
+  min-height: 33vh;
+}
+
+/* line 2, ../sass/partials/_modules.scss */
+.border-gray {
+  border-color: #999;
+}
+
+/* line 7, ../sass/partials/_modules.scss */
+.confirm-s1 {
+  background-image: url("../img/index-bg-s1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 12, ../sass/partials/_modules.scss */
+.error-s1 {
+  background-image: url("../img/index-bg-s1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 17, ../sass/partials/_modules.scss */
+.font-logo {
+  font-family: "Shojumaru", cursive;
+}
+/* line 20, ../sass/partials/_modules.scss */
+.font-menu {
+  font-family: "Comfortaa", cursive;
+}
+
+/* line 25, ../sass/partials/_modules.scss */
+.index-s1 {
+  background-image: url("../img/index-bg-s1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_modules.scss */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+/* line 32, ../sass/partials/_modules.scss */
+.navbar-dark .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+/* line 38, ../sass/partials/_modules.scss */
+.navbar-dark .navbar-text {
+  color: #fff;
+}
+
+/* line 43, ../sass/partials/_modules.scss */
+.privacy-s1 {
+  background-image: url("../img/index-bg-s1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 49, ../sass/partials/_modules.scss */
+.text-shadow-black {
+  text-shadow: 0 2px 5px black;
+}
+/* line 52, ../sass/partials/_modules.scss */
+.text-shadow-gray {
+  text-shadow: 0 1px 3px #999;
+}
