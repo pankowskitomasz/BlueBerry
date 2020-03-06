@@ -7,7 +7,7 @@
         <link rel="icon" href="img/favicon.png">
         <link rel="stylesheet" type="text/css" href="css/all.min.css">
         <link rel="stylesheet" type="text/css" href="css/styles.min.css">
-        <title>Blueberry Bakery | Error!</title>
+        <title>Blueberry Bakery | Message sent!</title>
     </head>
     <body>
         <nav class="navbar navbar-dark navbar-expand-md position-absolute w-100 bg-transparent text-white">
@@ -50,7 +50,7 @@
                 </ul>
             </div>
         </nav>
-        <section class="container-fluid error-s1 d-flex">
+        <section class="container-fluid confirm-s1 d-flex">
             <div class="row mx-auto my-auto text-center text-white text-shadow-black">
                 <div>
                     <h1 class="font-logo">Blueberry</h1>
@@ -60,18 +60,19 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid error-s2 d-flex bg-light" id="message">
+        <section class="container-fluid confirm-s2 d-flex bg-light" id="message">
             <div class="row my-auto mx-auto py-5 font-menu px-3">
                 <div class="col-12 col-sm-8 offset-sm-2 text-secondary text-shadow-gray text-center text-sm-left">
                     <h1 class="h4 font-logo text-light text-center text-shadow-black pb-3">
-                        Error!
+                        Message sent!
                     </h1>
                     <div class="w-100 text-center pb-3">
-                        <span class="fas fa-thumbs-down display-4 text-secondary"></span>
+                        <span class="far fa-thumbs-up display-4 text-secondary"></span>
                     </div>
-                    <p class="initialism text-center">
-                        Sorry, but due to the technical problems your message was not sent!
-                        Please try again later or contact with us directly.
+                    <p class="initialism">
+                        Congratulations! Your message was successfully sent! However
+                        please keep in mind that due the purpose of this website, your
+                        message wont be processed and stored.
                     </p>
                 </div>
                 <div class="col-12 text-center">
@@ -112,6 +113,38 @@
                 </div>
             </div>
         </footer>
+        <div class="modal" id="privacyModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="font-weight-bold text-secondary">GPDR Declaration</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="initialism">
+                            This website is a <span class="text-danger"> demo version </span> of real website,  It doesn't collect and process,
+                            in long term meaning (longer than needed for website operation during visitor's
+                            presence), any user (visitor) data. All information collected during visitor's 
+                            presence on this website is used only for technical purposes, required for 
+                            correct operation of website or demonstration purposes related to technical 
+                            mechanisms and presentation of its operation... 
+                            <a href="privacy.html#terms" class="label label-primary">More about privacy</a>
+                        </p>                        
+                        <p class="initialism">
+                            If you accept privacy policy please click button "accept". If you 
+                            refuse it, leave page by closing it in your web browser, please.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="text-center w-100">
+                            <button class="btn btn-success"
+                                onclick="acceptPrivacyPolicy()">
+                                Accept
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
         <script src="js/main.min.js"></script>
     </body>
 </html>

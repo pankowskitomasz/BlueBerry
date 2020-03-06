@@ -115,7 +115,17 @@ body, html {
 }
 
 /* line 16, ../sass/partials/_mixins.scss */
+.about-s1 {
+  min-height: 100vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
 .confirm-s1 {
+  min-height: 100vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.contact-s1 {
   min-height: 100vh;
 }
 
@@ -126,6 +136,11 @@ body, html {
 
 /* line 16, ../sass/partials/_mixins.scss */
 .index-s1 {
+  min-height: 100vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.menu-s1 {
   min-height: 100vh;
 }
 
@@ -192,6 +207,11 @@ body, html {
 /* line 16, ../sass/partials/_mixins.scss */
 .treats-s12 {
   min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.about-s2 {
+  min-height: 33vh;
 }
 
 /* line 16, ../sass/partials/_mixins.scss */
@@ -304,91 +324,124 @@ body, html {
 }
 
 /* line 2, ../sass/partials/_modules.scss */
+.about-s1 {
+  background-image: url("../img/about-bg-s1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 7, ../sass/partials/_modules.scss */
+.bg-light-gray {
+  background-color: #e6e6e6;
+}
+
+/* line 12, ../sass/partials/_modules.scss */
 .border-gray {
   border-color: #999;
 }
 
-/* line 7, ../sass/partials/_modules.scss */
+/* line 17, ../sass/partials/_modules.scss */
 .confirm-s1 {
   background-image: url("../img/index-bg-s1.jpg");
   background-position: center center;
   background-size: cover;
 }
 
-/* line 12, ../sass/partials/_modules.scss */
+/* line 22, ../sass/partials/_modules.scss */
 .error-s1 {
   background-image: url("../img/index-bg-s1.jpg");
   background-position: center center;
   background-size: cover;
 }
 
-/* line 17, ../sass/partials/_modules.scss */
+/* line 27, ../sass/partials/_modules.scss */
 .font-header {
   font-family: "Dancing Script", cursive;
+  letter-spacing: 2px;
 }
-/* line 20, ../sass/partials/_modules.scss */
+/* line 31, ../sass/partials/_modules.scss */
 .font-logo {
   font-family: "Shojumaru", cursive;
 }
-/* line 23, ../sass/partials/_modules.scss */
+/* line 34, ../sass/partials/_modules.scss */
 .font-menu {
   font-family: "Comfortaa", cursive;
 }
 
-/* line 28, ../sass/partials/_modules.scss */
+/* line 39, ../sass/partials/_modules.scss */
 .index-s1 {
   background-image: url("../img/index-bg-s1.jpg");
   background-position: center center;
   background-size: cover;
 }
 
-/* line 34, ../sass/partials/_modules.scss */
+/* line 44, ../sass/partials/_modules.scss */
+.map-container {
+  height: 50vh;
+}
+
+/* line 50, ../sass/partials/_modules.scss */
+.menu-table td:nth-of-type(n+2) {
+  text-align: right;
+}
+
+/* line 57, ../sass/partials/_modules.scss */
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
-/* line 35, ../sass/partials/_modules.scss */
+/* line 58, ../sass/partials/_modules.scss */
 .navbar-dark .navbar-nav .nav-link:hover {
   text-decoration: underline;
 }
-/* line 41, ../sass/partials/_modules.scss */
+/* line 64, ../sass/partials/_modules.scss */
 .navbar-dark .navbar-text {
   color: #fff;
 }
 
-/* line 46, ../sass/partials/_modules.scss */
+/* line 71, ../sass/partials/_modules.scss */
+.navbar-light .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* line 78, ../sass/partials/_modules.scss */
 .opacity-7 {
   opacity: 0.7;
 }
-/* line 49, ../sass/partials/_modules.scss */
+/* line 81, ../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 52, ../sass/partials/_modules.scss */
+/* line 84, ../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
 }
 
-/* line 57, ../sass/partials/_modules.scss */
+/* line 89, ../sass/partials/_modules.scss */
 .privacy-s1 {
   background-image: url("../img/index-bg-s1.jpg");
   background-position: center center;
   background-size: cover;
 }
 
-/* line 62, ../sass/partials/_modules.scss */
+/* line 94, ../sass/partials/_modules.scss */
 .shadow-box {
   box-shadow: 1px 2px 6px black !important;
 }
 
-/* line 68, ../sass/partials/_modules.scss */
+/* line 100, ../sass/partials/_modules.scss */
 .text-shadow-black {
   text-shadow: 0 2px 5px black;
 }
-/* line 71, ../sass/partials/_modules.scss */
+/* line 103, ../sass/partials/_modules.scss */
 .text-shadow-gray {
   text-shadow: 0 1px 2px #999;
 }
-/* line 72, ../sass/partials/_modules.scss */
+/* line 104, ../sass/partials/_modules.scss */
 .text-shadow-gray-light {
   text-shadow: 0 1px 2px #e6e6e6;
+}
+
+/* line 112, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
 }

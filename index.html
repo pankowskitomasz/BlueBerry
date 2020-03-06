@@ -60,7 +60,7 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid index-s2 d-flex bg-light">
+        <section class="container-fluid index-s2 d-flex bg-light-gray">
             <div class="row my-auto mx-auto py-5 font-menu px-5">
                 <div class="col-12 col-sm-6 text-secondary text-shadow-gray text-center text-sm-left">
                     <h1 class="h4 font-logo text-light text-shadow-black pb-3">
@@ -146,6 +146,38 @@
                 </div>
             </div>
         </footer>
+        <div class="modal" id="privacyModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="font-weight-bold text-secondary">GPDR Declaration</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="initialism">
+                            This website is a <span class="text-danger"> demo version </span> of real website,  It doesn't collect and process,
+                            in long term meaning (longer than needed for website operation during visitor's
+                            presence), any user (visitor) data. All information collected during visitor's 
+                            presence on this website is used only for technical purposes, required for 
+                            correct operation of website or demonstration purposes related to technical 
+                            mechanisms and presentation of its operation... 
+                            <a href="privacy.html#terms" class="label label-primary">More about privacy</a>
+                        </p>                        
+                        <p class="initialism">
+                            If you accept privacy policy please click button "accept". If you 
+                            refuse it, leave page by closing it in your web browser, please.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="text-center w-100">
+                            <button class="btn btn-success"
+                                onclick="acceptPrivacyPolicy()">
+                                Accept
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
         <script src="js/main.min.js"></script>
     </body>
 </html>

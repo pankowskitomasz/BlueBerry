@@ -1,3 +1,13 @@
+.about{
+    &-s1{
+        @include set-bg-cover($about-s1-bg);
+    }
+}
+.bg{
+    &-light-gray{
+        background-color: lighten($color-gray,30%);
+    }
+}
 .border{
     &-gray{
         border-color: $color-gray;
@@ -16,6 +26,7 @@
 .font{
     &-header{
         font-family: $font-header;
+        letter-spacing: $font-header-letter-spacing;
     }
     &-logo{
         font-family: $font-logo;
@@ -29,6 +40,18 @@
         @include set-bg-cover($index-s1-bg);
     }
 }
+.map{
+    &-container{
+        height: 50vh;
+    }
+}
+.menu{
+    &-table{
+        td:nth-of-type(n+2){
+            text-align: right;
+        }
+    }
+}
 .navbar-dark{
     .navbar-nav{
         .nav-link {
@@ -40,6 +63,15 @@
     }
     .navbar-text{
         color: $color-white;
+    }
+}
+.navbar-light{
+    .navbar-nav{
+        .nav-link {
+            &:hover{
+                text-decoration: underline;
+            }
+        }
     }
 }
 .opacity{
@@ -75,4 +107,8 @@
             text-shadow: $text-shadow-gray;
         }
     }
+}
+
+textarea{
+    resize:none;
 }

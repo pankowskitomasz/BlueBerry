@@ -1,6 +1,8 @@
+$about-s1-bg: "../img/about-bg-s1.jpg";
 $color-gray: #999;
 $color-white: #fff;
 $font-header: 'Dancing Script', cursive;
+$font-header-letter-spacing: 2px;
 $font-logo: 'Shojumaru', cursive;
 $font-menu: 'Comfortaa', cursive;
 $height-full: 100vh;
@@ -8,9 +10,12 @@ $height-half: 50vh;
 $height-third: 33vh;
 $index-s1-bg: "../img/index-bg-s1.jpg";
 $section-full-height:
+    "about-s1",
     "confirm-s1",
+    "contact-s1",
     "error-s1",
     "index-s1",
+    "menu-s1",
     "privacy-s1";
 $section-half-height:
     "treats-s1",
@@ -26,6 +31,7 @@ $section-half-height:
     "treats-s11",
     "treats-s12";
 $section-third-height:
+    "about-s2",
     "confirm-s2",
     "error-s2",
     "index-s2",
