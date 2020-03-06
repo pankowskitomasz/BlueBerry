@@ -1,5 +1,6 @@
 $color-gray: #999;
 $color-white: #fff;
+$font-header: 'Dancing Script', cursive;
 $font-logo: 'Shojumaru', cursive;
 $font-menu: 'Comfortaa', cursive;
 $height-full: 100vh;
@@ -11,11 +12,52 @@ $section-full-height:
     "error-s1",
     "index-s1",
     "privacy-s1";
+$section-half-height:
+    "treats-s1",
+    "treats-s2",
+    "treats-s3",
+    "treats-s4",
+    "treats-s5",
+    "treats-s6",
+    "treats-s7",
+    "treats-s8",
+    "treats-s9",
+    "treats-s10",
+    "treats-s11",
+    "treats-s12";
 $section-third-height:
     "confirm-s2",
     "error-s2",
     "index-s2",
     "index-s3",
     "privacy-s2";
+$shadow-box: 1px 2px 6px black;
 $text-shadow-black: 0 2px 5px black;
-$text-shadow-gray: 0 1px 3px $color-gray;
+$text-shadow-gray: 0 1px 2px $color-gray;
+$text-shadow-gray-light: 0 1px 2px lighten($color-gray,30%);
+$treats-bg-obj:
+    "treats-s1",
+    "treats-s2",
+    "treats-s3",
+    "treats-s4",
+    "treats-s5",
+    "treats-s6",
+    "treats-s7",
+    "treats-s8",
+    "treats-s9",
+    "treats-s10",
+    "treats-s11",
+    "treats-s12";
+$treats-bg-img:
+    "../img/treats/treats-s1.jpg",
+    "../img/treats/treats-s2.jpg",
+    "../img/treats/treats-s3.jpg",
+    "../img/treats/treats-s4.jpg",
+    "../img/treats/treats-s5.jpg",
+    "../img/treats/treats-s6.jpg",
+    "../img/treats/treats-s7.jpg",
+    "../img/treats/treats-s8.jpg",
+    "../img/treats/treats-s9.jpg",
+    "../img/treats/treats-s10.jpg",
+    "../img/treats/treats-s11.jpg",
+    "../img/treats/treats-s12.jpg";

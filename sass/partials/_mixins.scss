@@ -4,6 +4,14 @@
     background-size: cover;
 }
 
+@mixin set-bg-cover-arr($objArrA,$imgArrA){
+    @for $i from 1 through length($objArrA){
+        .#{nth($objArrA,$i)}{
+            @include set-bg-cover(nth($imgArrA,$i));
+        }
+    }
+}
+
 @mixin set-min-height($objA,$heightA){
     .#{$objA}{
         min-height: $heightA;

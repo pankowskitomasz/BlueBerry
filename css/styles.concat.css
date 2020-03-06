@@ -77,6 +77,33 @@
   src: local("Shojumaru"), local("Shojumaru-Regular"), url(../fonts/rax_HiWfutkLLnaKCtl8Axhf.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+/* vietnamese */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep8ltA.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3ROp8ltA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup8.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /* line 1, ../sass/partials/_layout.scss */
 * {
   box-sizing: border-box;
@@ -87,49 +114,193 @@ body, html {
   height: 100%;
 }
 
-/* line 8, ../sass/partials/_mixins.scss */
+/* line 16, ../sass/partials/_mixins.scss */
 .confirm-s1 {
   min-height: 100vh;
 }
 
-/* line 8, ../sass/partials/_mixins.scss */
+/* line 16, ../sass/partials/_mixins.scss */
 .error-s1 {
   min-height: 100vh;
 }
 
-/* line 8, ../sass/partials/_mixins.scss */
+/* line 16, ../sass/partials/_mixins.scss */
 .index-s1 {
   min-height: 100vh;
 }
 
-/* line 8, ../sass/partials/_mixins.scss */
+/* line 16, ../sass/partials/_mixins.scss */
 .privacy-s1 {
   min-height: 100vh;
 }
 
-/* line 8, ../sass/partials/_mixins.scss */
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s1 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s2 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s3 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s4 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s5 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s6 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s7 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s8 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s9 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s10 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s11 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
+.treats-s12 {
+  min-height: 50vh;
+}
+
+/* line 16, ../sass/partials/_mixins.scss */
 .confirm-s2 {
   min-height: 33vh;
 }
 
-/* line 8, ../sass/partials/_mixins.scss */
+/* line 16, ../sass/partials/_mixins.scss */
 .error-s2 {
   min-height: 33vh;
 }
 
-/* line 8, ../sass/partials/_mixins.scss */
+/* line 16, ../sass/partials/_mixins.scss */
 .index-s2 {
   min-height: 33vh;
 }
 
-/* line 8, ../sass/partials/_mixins.scss */
+/* line 16, ../sass/partials/_mixins.scss */
 .index-s3 {
   min-height: 33vh;
 }
 
-/* line 8, ../sass/partials/_mixins.scss */
+/* line 16, ../sass/partials/_mixins.scss */
 .privacy-s2 {
   min-height: 33vh;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s1 {
+  background-image: url("../img/treats/treats-s1.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s2 {
+  background-image: url("../img/treats/treats-s2.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s3 {
+  background-image: url("../img/treats/treats-s3.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s4 {
+  background-image: url("../img/treats/treats-s4.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s5 {
+  background-image: url("../img/treats/treats-s5.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s6 {
+  background-image: url("../img/treats/treats-s6.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s7 {
+  background-image: url("../img/treats/treats-s7.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s8 {
+  background-image: url("../img/treats/treats-s8.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s9 {
+  background-image: url("../img/treats/treats-s9.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s10 {
+  background-image: url("../img/treats/treats-s10.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s11 {
+  background-image: url("../img/treats/treats-s11.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 9, ../sass/partials/_mixins.scss */
+.treats-s12 {
+  background-image: url("../img/treats/treats-s12.jpg");
+  background-position: center center;
+  background-size: cover;
 }
 
 /* line 2, ../sass/partials/_modules.scss */
@@ -152,46 +323,72 @@ body, html {
 }
 
 /* line 17, ../sass/partials/_modules.scss */
+.font-header {
+  font-family: "Dancing Script", cursive;
+}
+/* line 20, ../sass/partials/_modules.scss */
 .font-logo {
   font-family: "Shojumaru", cursive;
 }
-/* line 20, ../sass/partials/_modules.scss */
+/* line 23, ../sass/partials/_modules.scss */
 .font-menu {
   font-family: "Comfortaa", cursive;
 }
 
-/* line 25, ../sass/partials/_modules.scss */
+/* line 28, ../sass/partials/_modules.scss */
 .index-s1 {
   background-image: url("../img/index-bg-s1.jpg");
   background-position: center center;
   background-size: cover;
 }
 
-/* line 31, ../sass/partials/_modules.scss */
+/* line 34, ../sass/partials/_modules.scss */
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
-/* line 32, ../sass/partials/_modules.scss */
+/* line 35, ../sass/partials/_modules.scss */
 .navbar-dark .navbar-nav .nav-link:hover {
   text-decoration: underline;
 }
-/* line 38, ../sass/partials/_modules.scss */
+/* line 41, ../sass/partials/_modules.scss */
 .navbar-dark .navbar-text {
   color: #fff;
 }
 
-/* line 43, ../sass/partials/_modules.scss */
+/* line 46, ../sass/partials/_modules.scss */
+.opacity-7 {
+  opacity: 0.7;
+}
+/* line 49, ../sass/partials/_modules.scss */
+.opacity-8 {
+  opacity: 0.8;
+}
+/* line 52, ../sass/partials/_modules.scss */
+.opacity-9 {
+  opacity: 0.9;
+}
+
+/* line 57, ../sass/partials/_modules.scss */
 .privacy-s1 {
   background-image: url("../img/index-bg-s1.jpg");
   background-position: center center;
   background-size: cover;
 }
 
-/* line 49, ../sass/partials/_modules.scss */
+/* line 62, ../sass/partials/_modules.scss */
+.shadow-box {
+  box-shadow: 1px 2px 6px black !important;
+}
+
+/* line 68, ../sass/partials/_modules.scss */
 .text-shadow-black {
   text-shadow: 0 2px 5px black;
 }
-/* line 52, ../sass/partials/_modules.scss */
+/* line 71, ../sass/partials/_modules.scss */
 .text-shadow-gray {
-  text-shadow: 0 1px 3px #999;
+  text-shadow: 0 1px 2px #999;
+}
+/* line 72, ../sass/partials/_modules.scss */
+.text-shadow-gray-light {
+  text-shadow: 0 1px 2px #e6e6e6;
 }

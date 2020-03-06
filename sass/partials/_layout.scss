@@ -6,4 +6,6 @@ body,html{
 }
 
 @include set-min-height-arr($section-full-height,$height-full);
+@include set-min-height-arr($section-half-height,$height-half);
 @include set-min-height-arr($section-third-height,$height-third);
+@include set-bg-cover-arr($treats-bg-obj,$treats-bg-img);
