@@ -1,0 +1,44 @@
+{
+    "biscottis":[
+        {"name":"Almond and chocolate biscotti","price":"$2.0"}
+    ],
+    "cookies":[
+        {"name":"Chocolate chip","price":"$1.00"},
+        {"name":"Peanut chocolate chip","price":"$1.25"},
+        {"name":"Snicker doodle","price":"$1.75"}
+    ],
+    "croissants":[
+        {"name":"Plain croissants","price":"$3.00"},
+        {"name":"Chocolate Brioche","price":"$3.00"},
+        {"name":"Ham + Swiss Croissant","price":"$6.00"},
+        {"name":"Turkey club Croissant","price":"$5.50"},
+        {"name":"Feta +Spinach croissant","price":"$4.70"},
+        {"name":"Egg, sausage, cheddar Croissant","price":"$3.95"}
+    ],
+    "ordered":[
+        {"name":"Chocolate mousse cake 8-inch","price":"$40.00"},
+        {"name":"Strawberry whipped cream cake 8-inch","price":"$40.00"}
+    ],
+    "other":[
+        {"name":"Pecan tart","price":"$5.50"},
+        {"name":"Cranberry walnut tart","price":"$5.50"},
+        {"name":"Linzertart","price":"$6.50"},
+        {"name":"Flourless chocolate torte","price":"$3.60"},
+        {"name":"Apple strudel","price":"$5.29"},
+        {"name":"NY style cheese cake","price":"$4.50"},
+        {"name":" NY style cheese cake with fruits","price":"$5.19"},
+        {"name":"Boston cream pie","price":"$5.00"}
+    ],
+    "pastries":[
+        {"name":"Apple turnovers","price":"$3.00"},
+        {"name":"Blueberry turnovers","price":"$3.20"},
+        {"name":"Blueberry muffin","price":"$3.69"},
+        {"name":"Chocolate chip muffin","price":"$3.50"},
+        {"name":"Cinnamon buns","price":"$3.00"},
+        {"name":"Blueberry scone","price":"$2.99"},
+        {"name":"Raspberry scone","price":"$3.60"},
+        {"name":"White chocolate raspberry scone","price":"$4.00"},
+        {"name":"Apple cinnamon Muffin","price":"$3.99"},
+        {"name":"Strawberry cream cheese Danish","price":"$3.00"}
+    ]
+}
