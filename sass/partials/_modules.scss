@@ -45,11 +45,21 @@
         height: 50vh;
     }
 }
+.max{
+    &-600{
+        max-height: 600px;
+    }
+}
 .menu{
     &-table{
         td:nth-of-type(n+2){
             text-align: right;
         }
+    }
+}
+.minh{
+    &-50vh{
+        min-height: 50vh;
     }
 }
 .navbar-dark{
@@ -111,4 +121,13 @@
 
 textarea{
     resize:none;
+}
+
+@media all and (max-width:767px){
+    .navbar-collapse{
+        backdrop-filter: blur(15px);
+        border: 1px solid #666;
+        padding: 20px;
+        z-index: 10;
+    }
 }

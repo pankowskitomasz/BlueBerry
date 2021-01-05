@@ -21,7 +21,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="main-nav">
-                <ul class="nav navbar-nav ml-auto font-menu font-weight-bold">
+                <ul class="nav navbar-nav ml-auto font-menu font-weight-bold text-shadow-black">
                     <li class="nav-item">
                         <a href="index.html" class="nav-link">
                             <span class="fa fa-home"></span>
@@ -50,9 +50,9 @@
                 </ul>
             </div>
         </nav>
-        <section class="container-fluid confirm-s1 d-flex">
+        <section class="container-fluid confirm-s1 d-flex max-600 minh-50vh">
             <div class="row mx-auto my-auto text-center text-white text-shadow-black">
-                <div>
+                <div class="pt-5">
                     <h1 class="font-logo">Blueberry</h1>
                     <h4 class="font-menu font-weight-bold">
                         The best bakery in the city!
@@ -60,7 +60,7 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid confirm-s2 d-flex bg-light" id="message">
+        <section class="container-fluid confirm-s2 d-flex bg-light minh-50vh" id="message">
             <div class="row my-auto mx-auto py-5 font-menu px-3">
                 <div class="col-12 col-sm-8 offset-sm-2 text-secondary text-shadow-gray text-center text-sm-left">
                     <h1 class="h4 font-logo text-light text-center text-shadow-black pb-3">
@@ -82,34 +82,40 @@
                 </div>
             </div>
         </section>
-        <footer class="container-fluid border-top border-gray bg-light">
+        <footer class="container-fluid border-top border-gray bg-dark">
             <div class="row">
-                <div class="col-12 col-sm-6 p-3 text-secondary text-center text-sm-left">
-                    <h4 class="font-logo initialism">Contact</h4>
-                    <address class="font-menu initialism pl-2">
-                        BLUEBERRY BAKERY<br>
-                        123 Street, NY<br/>
-                        123456, United States<br/>
-                        +1 123-456-7890
-                    </address>
+                <div class="col-12 col-sm-6 p-3 text-white text-center text-sm-left">
+                    <small>
+                        <h4 class="font-logo initialism">Contact</h4>
+                        <address class="font-menu initialism pl-2">
+                            BLUEBERRY BAKERY<br>
+                            123 Street, NY<br/>
+                            123456, United States<br/>
+                            +1 123-456-7890
+                        </address>
+                    </small>
                 </div>
-                <div class="col-12 col-sm-6 p-3 text-secondary text-center text-sm-left">
+                <div class="col-12 col-sm-6 p-3 text-white text-center text-sm-left">
                     <div class="float-sm-right float-none">
-                        <h4 class="font-logo initialism">Menu</h4>
-                        <div class="list-group pl-sm-3">
-                            <a href="index.html" class="text-secondary">Home</a>     
-                            <a href="treats.html" class="text-secondary">The treats</a>
-                            <a href="menu.html" class="text-secondary">Menu</a>
-                            <a href="about.html" class="text-secondary">About</a>
-                            <a href="contact.html" class="text-secondary">Contact</a>
-                        </div>
+                        <small>
+                            <h4 class="font-logo initialism">Menu</h4>
+                            <div class="list-group pl-sm-3">
+                                <a href="index.html" class="text-white">Home</a>     
+                                <a href="treats.html" class="text-white">The treats</a>
+                                <a href="menu.html" class="text-white">Menu</a>
+                                <a href="about.html" class="text-white">About</a>
+                                <a href="contact.html" class="text-white">Contact</a>
+                            </div>
+                        </small>
                     </div>
                 </div>
-                <div class="col-10 offset-1 border-top border-gray mt-3">
-                    <p class="text-center text-secondary">
-                        Website demo, Copyright &copy; 2020 |
-                        <a href="privacy.html#terms" class="text-secondary">Privacy</a>
-                    </p>
+                <div class="col-10 offset-1 border-top border-secondary text-center mt-3">
+                    <small class="text-white">
+                        Copyright &copy; 2020-2021 Tomasz Pankowski |
+                        <a href="privacy.html#terms" class="text-white">
+                            Privacy policy
+                        </a>
+                    </small>
                 </div>
             </div>
         </footer>

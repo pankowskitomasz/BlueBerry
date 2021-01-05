@@ -373,68 +373,88 @@ body, html {
   height: 50vh;
 }
 
-/* line 50, ../sass/partials/_modules.scss */
+/* line 49, ../sass/partials/_modules.scss */
+.max-600 {
+  max-height: 600px;
+}
+
+/* line 55, ../sass/partials/_modules.scss */
 .menu-table td:nth-of-type(n+2) {
   text-align: right;
 }
 
-/* line 57, ../sass/partials/_modules.scss */
+/* line 61, ../sass/partials/_modules.scss */
+.minh-50vh {
+  min-height: 50vh;
+}
+
+/* line 67, ../sass/partials/_modules.scss */
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
-/* line 58, ../sass/partials/_modules.scss */
+/* line 68, ../sass/partials/_modules.scss */
 .navbar-dark .navbar-nav .nav-link:hover {
   text-decoration: underline;
 }
-/* line 64, ../sass/partials/_modules.scss */
+/* line 74, ../sass/partials/_modules.scss */
 .navbar-dark .navbar-text {
   color: #fff;
 }
 
-/* line 71, ../sass/partials/_modules.scss */
+/* line 81, ../sass/partials/_modules.scss */
 .navbar-light .navbar-nav .nav-link:hover {
   text-decoration: underline;
 }
 
-/* line 78, ../sass/partials/_modules.scss */
+/* line 88, ../sass/partials/_modules.scss */
 .opacity-7 {
   opacity: 0.7;
 }
-/* line 81, ../sass/partials/_modules.scss */
+/* line 91, ../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 84, ../sass/partials/_modules.scss */
+/* line 94, ../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
 }
 
-/* line 89, ../sass/partials/_modules.scss */
+/* line 99, ../sass/partials/_modules.scss */
 .privacy-s1 {
   background-image: url("../img/index-bg-s1.jpg");
   background-position: center center;
   background-size: cover;
 }
 
-/* line 94, ../sass/partials/_modules.scss */
+/* line 104, ../sass/partials/_modules.scss */
 .shadow-box {
   box-shadow: 1px 2px 6px black !important;
 }
 
-/* line 100, ../sass/partials/_modules.scss */
+/* line 110, ../sass/partials/_modules.scss */
 .text-shadow-black {
   text-shadow: 0 2px 5px black;
 }
-/* line 103, ../sass/partials/_modules.scss */
+/* line 113, ../sass/partials/_modules.scss */
 .text-shadow-gray {
   text-shadow: 0 1px 2px #999;
 }
-/* line 104, ../sass/partials/_modules.scss */
+/* line 114, ../sass/partials/_modules.scss */
 .text-shadow-gray-light {
   text-shadow: 0 1px 2px #e6e6e6;
 }
 
-/* line 112, ../sass/partials/_modules.scss */
+/* line 122, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 127, ../sass/partials/_modules.scss */
+  .navbar-collapse {
+    backdrop-filter: blur(15px);
+    border: 1px solid #666;
+    padding: 20px;
+    z-index: 10;
+  }
 }
